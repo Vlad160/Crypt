@@ -1,0 +1,16 @@
+{
+  "name": "cryptlab-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "OTOSC.js",
+  "scripts": {
+    "otosc:encode": "node app --alg=otosc --mode=encode --file=input.txt",
+    "otosc:decode": "node app --alg=otosc --mode=decode --file=output.txt --key=key.txt"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mathjs": "^4.0.1",
+    "minimist": "^1.2.0"
+  }
+}
